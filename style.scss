@@ -1,0 +1,141 @@
+$textColor: white;
+$mainColor: rgb(17, 17, 17);
+$footHeadColor: rgb(11, 11, 11);
+$mainPadding: 50px;
+$textSize: 24px;
+
+// set margin: 0;
+body
+{
+    background-color: $footHeadColor;
+    font-size: $textSize;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    color: $textColor
+}
+
+// header and footer structure
+header, footer{
+    background: $footHeadColor;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    h1 {
+        margin: 0;
+    }
+    div {
+        display: flex;
+        align-items: center;
+    }
+}
+a {
+    margin: 10px;
+    color: $textColor;
+    text-decoration: none;
+}
+a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+// main content
+main {
+    background: $mainColor;
+}
+main section{
+    padding: $mainPadding;
+}
+ul li {
+    padding: 5px;
+}
+footer {
+    display: flex;
+    text-align: left;
+    font-size: $textSize / 1.6;
+    div {
+        width: 50%;
+    }
+    h1 {
+        text-align: left;
+        margin: 0;
+    }
+    hr {
+        margin: 0;
+        width: 40%;
+        text-align: left;
+    }
+    #padding_contacts {
+        padding: 0 5%;
+    }
+    #contacts {
+        display: flex;
+        width: 100%;
+        p {
+            margin: 5px;
+        }
+    }
+    #padding_social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.box_div {
+    font-size: $textSize * 0.7;
+    text-align: center;
+}
+.box {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 350px;
+    height: 340px;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 30px;
+    border: 1px solid rgb(78, 78, 78);
+    background-color: #19191d;
+    border-radius: 30px;
+    p {
+        text-align: center;
+    }
+}
+.centered {
+    text-align: center;
+    margin: 0 15%;
+}
+
+
+// social media button
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 17px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 1000%;
+    background: white;
+    color: black;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+#introduce {
+    // background-image: url("https://img.freepik.com/free-photo/3d-geometric-abstract-background_1048-15986.jpg?w=1380&t=st=1685899448~exp=1685900048~hmac=9a60169fcd16bd0c69a4ba6e9dfc7a1116c5e331b44ed4f5d3f572269de75611");
+    background-image: url("https://img.freepik.com/free-vector/dark-background-with-dynamic-shapes_23-2148865192.jpg?w=1060&t=st=1685899748~exp=1685900348~hmac=e418c3480f9455186018ae8ecdc2b83f926a7de5094b27b7b81a3ae61276bf2e");
+    background-size: cover;
+    font-size: $textSize * 1.3;
+}
+#why_section {
+    background-color: rgb(18, 18, 18);
+    background-image: url("https://img.freepik.com/free-vector/background-luxury-minimalist-gradient-style-design_698780-700.jpg?w=1380&t=st=1685905654~exp=1685906254~hmac=f7af11cf702860b82e7fcca78afbc03d9ea94a056d6061d2a18b5a7cad05e91b");
+    background-size: cover;
+}

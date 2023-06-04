@@ -1,0 +1,138 @@
+body {
+  background-color: rgb(11, 11, 11);
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  color: white;
+}
+
+header, footer {
+  background: rgb(11, 11, 11);
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header h1 {
+  margin: 0;
+}
+header div {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+main {
+  background: rgb(17, 17, 17);
+}
+
+main section {
+  padding: 50px;
+}
+
+ul li {
+  padding: 5px;
+}
+
+footer {
+  display: flex;
+  text-align: left;
+  font-size: 15px;
+}
+footer div {
+  width: 50%;
+}
+footer h1 {
+  text-align: left;
+  margin: 0;
+}
+footer hr {
+  margin: 0;
+  width: 40%;
+  text-align: left;
+}
+footer #padding_contacts {
+  padding: 0 5%;
+}
+footer #contacts {
+  display: flex;
+  width: 100%;
+}
+footer #contacts p {
+  margin: 5px;
+}
+footer #padding_social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_div {
+  font-size: 16.8px;
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 350px;
+  height: 340px;
+  margin: 10px;
+  box-sizing: border-box;
+  padding: 30px;
+  border: 1px solid rgb(78, 78, 78);
+  background-color: #19191d;
+  border-radius: 30px;
+}
+.box p {
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
+  margin: 0 15%;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 50px;
+  width: 17px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 1000%;
+  background: white;
+  color: black;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+#introduce {
+  background-image: url("https://img.freepik.com/free-vector/dark-background-with-dynamic-shapes_23-2148865192.jpg?w=1060&t=st=1685899748~exp=1685900348~hmac=e418c3480f9455186018ae8ecdc2b83f926a7de5094b27b7b81a3ae61276bf2e");
+  background-size: cover;
+  font-size: 31.2px;
+}
+
+#why_section {
+  background-color: rgb(18, 18, 18);
+  background-image: url("https://img.freepik.com/free-vector/background-luxury-minimalist-gradient-style-design_698780-700.jpg?w=1380&t=st=1685905654~exp=1685906254~hmac=f7af11cf702860b82e7fcca78afbc03d9ea94a056d6061d2a18b5a7cad05e91b");
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */
